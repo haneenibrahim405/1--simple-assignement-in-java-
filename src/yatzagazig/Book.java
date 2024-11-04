@@ -8,6 +8,7 @@ public class Book {
     String publisherName;
     String coverURL;
     int publishYear;
+    int [] pageArr;
 
 
     public void saveBook(String title, String author, int page)
